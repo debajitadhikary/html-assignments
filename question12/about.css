@@ -1,0 +1,86 @@
+/* about.css */
+
+/* Global Styles */
+body {
+    background-color: #f4f4f4; /* Ensure consistent background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #004d99; /* Dark blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 35px; /* Adjust size as needed */
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004d99; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+}
