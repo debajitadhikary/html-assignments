@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESU | Student Portal</title>
+    <link rel="stylesheet" href="styles/student-portal.css">
+</head>
+<body>
+    <header>
+        <img src="college-logo.png" alt="College Logo" class="logo">
+        <h1>ElectraSynth University</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="admission.html">Admission</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="faq.html">FAQ</a>
+            <a href="events.html">Events</a>
+            <a href="student-portal.html">Student Portal</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Student Portal</h2>
+            <p>Welcome to the Student Portal. Please log in to access your account.</p>
+            <form action="login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+            <p><a href="register.html">Create a new account</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2099 ElectraSynth University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
